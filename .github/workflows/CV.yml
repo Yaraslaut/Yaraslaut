@@ -1,0 +1,21 @@
+name: CV Generator
+run-name: ${{ github.actor }}
+on: [push]
+jobs:
+  cargo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+      - run : sudo apt update
+      - name: Install Cargo
+        run: sudo apt install -y cargo
+      - name: Install typst
+        run: cargo install --git https://github.com/typst/typst
+      - name: Create File
+        run: |
+          typst compile ./cv/cv.typ
+      - uses: actions/upload-artifact@v3
+        with:
+          name: CV.pdf
+          path: ./cv/cv.pdf
