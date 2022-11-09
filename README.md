@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Hack&duration=1200&pause=2000&color=000000&background=66BB69D2&center=true&vCenter=true&multiline=true&width=500&lines=Hi+%F0%9F%91%8B%2C++I'm+Yaraslau)](https://git.io/typing-svg)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Yaraslaut)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Yaraslaut&theme=gruvbox&hide_border=true&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
 
 ![Visitor count](https://komarev.com/ghpvc/?username=Yaraslaut)
 
