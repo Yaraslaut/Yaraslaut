@@ -7,7 +7,7 @@
   columns: 2,
   gutter: 8pt,
   rect(fill: rgb("e4e5ea"),width:100%)[#align(left, text(weight: "black")[#title]) ],
-  [#align(right, rect(fill: xcolor.dandelion)[#duration])] ,
+  [#align(right, rect(fill: xcolor.dandelion, width: 100pt)[#duration])] ,
   [#align(left,text(style:"italic")[#place])] ,
   [],
   [#par(first-line-indent: 1em,justify: true)[#thesis]],
@@ -46,17 +46,17 @@
     rows: 1,
     columns: 4,
     column-gutter: 10pt,
-    [#link("mailto:yaraslau.tamashevich@gmail.com")[yaraslau.tamashevich\@gmail.com]],
+    [Mail: #link("mailto:yaraslau.tamashevich@gmail.com")[yaraslau.tamashevich\@gmail.com]],
     [Github : #link("https://github.com/Yaraslaut")[Yaraslaut]],
     [Linkedin : #link("https://www.linkedin.com/in/yaraslau-tamashevich/")[yaraslau-tamashevich]]
 )
 
-#box(width: 40em, height: 0.2em, fill: xcolor.dandelion)
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 #set align(left)
-= Symmary
-I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction.
+= Summary
+I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in nonlinear optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. For example, interaction of graphene with structured light and other materials such as Weyl semimetals of different types. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis. And have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
 
-#box(width: 40em, height: 0.2em, fill: xcolor.dandelion)
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Education
 #EducationItem()[
   2015-2020][
@@ -70,30 +70,33 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Tampere University, Tampere, Finland][
   Theoretical Optics and Photonics group
   ]
-#box(width: 40em, height: 0.2em, fill: xcolor.dandelion)
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 
 = Work Experience
 #EducationItem()[
   Feb 2019 - Dec 2020][
   Algorithm developer][
   EMC Lab, BSUIR, Minsk, Belarus][
-  I have beein involved in the design and implemntation of algorithnms for EMC problems. As well was helping developers with little knowledge in physics.
+  I have been involved in the design and implemntation of algorithms for EMC problems. As well was helping developers with little knowledge in physics.
   ]
 
-#box(width: 40em, height: 0.2em, fill: xcolor.dandelion)
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Skills
 #set list(marker: [--])
-- Knowledge of a variety of programming languages including C++, Julia, Python, Mathematica.
 - Strong knowledge in physics and mathematics with a theoretical bent.
+- Knowledge of a variety of programming languages including C++, Julia, Python, Mathematica.
+- Other languages that I am familiar with: Rust, Elisp, Bash.
+- Humbly, I would  call myself a power user of Linux.
 
-#box(width: 40em, height: 0.2em, fill: xcolor.dandelion)
+
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Hobbies and interests
 
 #set list(marker: [•])
-- I contribute to terminal emulator #link("https://github.com/contour-terminal/contour")[Contour] which I use daily, I especially enjoy the sixel support, thanks to which I have no need to leave the terminal when making plots of any kind.
-- I have a small pet project #link("https://github.com/Yaraslaut/prop")[Prop] 2D FDTD solver of Maxwell's equations, it can utilize both CPU and GPU for calculations, while the math part is written in C++, Python wrapper also exist to give users easy access to the software.
+- I contribute to terminal emulator #link("https://github.com/contour-terminal/contour")[Contour] which I use daily, I especially enjoy the Sixel support, thanks to which I have no need to leave the terminal when making plots of any kind.
+- I have a small pet project #link("https://github.com/Yaraslaut/prop")[Prop] 2D FDTD solver of Maxwell's equations, it can utilize both CPU and GPU for calculations, while the math part is written in C++, Python wrapper also exists to give users easy access to the software.
 
 
-#box(width: 40em, height: 0.2em, fill: xcolor.dandelion)
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 #bibliography("list.bib",title: "List of publications")
 #cite("tsyanenka2020computationally", "tamashevich2022inhomogeneous","robson2021path","tamashevich2022nonlinear","tamashevich2023two")
