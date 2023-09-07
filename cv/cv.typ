@@ -85,8 +85,8 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
 #set list(marker: [--])
 - Strong knowledge in physics and mathematics with a theoretical bent.
 - Knowledge of a variety of programming languages including C++, Julia, Python, Mathematica.
-- Other languages that I am familiar with: Rust, Elisp, Bash.
-- Humbly, I would  call myself a power user of Linux.
+- Other languages that I am familiar with: elisp, Bash.
+- To some extent knowledgeable user of Linux.
 
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
