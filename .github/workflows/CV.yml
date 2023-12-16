@@ -22,13 +22,13 @@ jobs:
           name: PDF
           path: ./cv/cv.pdf
 
-      # - name: Get current date
-      #   id: date
-      #   run: echo "DATE=$(date +%Y-%m-%d-%H:%M)" >> $GITHUB_ENV
+      - name: Get current date
+        id: date
+        run: echo "DATE=$(date +%Y-%m-%d-%H:%M)" >> $GITHUB_ENV
 
-      # - name: Release
-      #   uses: softprops/action-gh-release@v1
-      #   if: github.ref_type == 'tag'
-      #   with:
-      #     name: "${{ github.ref_name }} — ${{ env.DATE }}"
-      #     files: cv.pdf
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: github.ref_type == 'tag'
+        with:
+          name: "${{ github.ref_name }} — ${{ env.DATE }}"
+          files: ./cv/cv.pdf
