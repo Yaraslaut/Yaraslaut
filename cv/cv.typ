@@ -99,4 +99,4 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 #bibliography("list.bib",title: "List of publications")
-#cite("tsyanenka2020computationally", "tamashevich2022inhomogeneous","robson2021path","tamashevich2022nonlinear","tamashevich2023two")
+#cite("tsyanenka2020computationally", "tamashevich2022inhomogeneous","robson2021path","tamashevich2022nonlinear","tamashevich2023two","tamashevich2023field")
