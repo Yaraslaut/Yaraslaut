@@ -2,13 +2,16 @@
 
 // SOME FUNCTIONS
 
-#let EducationItem(duration,title,place,thesis) = {
+#let Item(duration,title,place,thesis) = {
   grid(
   columns: 2,
   gutter: 8pt,
-  rect(fill: rgb("e4e5ea"),width:100%)[#align(left, text(weight: "black")[#title]) ],
-  [#align(right, rect(fill: xcolor.dandelion, width: 100pt)[#duration])] ,
-  [#align(left,text(style:"italic")[#place])] ,
+  rect(fill: rgb("e4e5ea"),width:100%)[
+             #text(weight: "black")[#title]
+             #text(style:"italic")[#place]
+  ],
+  [#align(right, rect(fill: xcolor.dandelion, width: 100pt)[#align(center)[#duration]])] ,
+  [] ,
   [],
   [#par(first-line-indent: 1em,justify: true)[#thesis]],
 )}
@@ -57,44 +60,76 @@
 I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in nonlinear optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. For example, interaction of graphene with structured light and other materials such as Weyl semimetals of different types. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis. And have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
+= Skills
+#list(
+    [Strong knowledge in physics and mathematics],
+    [Programming languages: C++, Julia, Python],
+    [Other tools: cmake, bash, latex, typst, mathematica, mathcad, slurm],
+)
+
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Education
-#EducationItem()[
+#Item()[
   2015-2020][
-  B.Sc. in Physics][
+  M.Sc. in Physics][
   Belarusian State University, Minsk, Belarus][
-  Passed with GPA: #text(weight: "bold")[8.3/10]. Thesis: #text(style:"italic")[Analysis of the efficiency of quantum repeaters based on elimination measurements]
-  ]
-#EducationItem()[
-  2021-ongoing][
+#list(
+[Theoretical physics and astrophysics department],
+[Thesis: #text(style:"italic")[Analysis of the efficiency of quantum repeaters based on elimination measurements]],
+)
+]
+
+#Item()[
+  2021-present][
   Ph.D. in Physics][
   Tampere University, Tampere, Finland][
   Theoretical Optics and Photonics group
+#list(
+  [Solved a lot of differential equations with Julia both local and on clusters],
+  )
   ]
-#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 
-= Work Experience
-#EducationItem()[
+#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
+= Experience
+#Item()[
   Feb 2019 - Dec 2020][
   Algorithm developer][
   EMC Lab, BSUIR, Minsk, Belarus][
-  I have been involved in the design and implemntation of algorithms for EMC problems. As well was helping developers with little knowledge in physics.
+#list(
+    [
+    Implementation and development of algorithms using Mathcad as the initial tool to implement algorithms, followed by C++ to create the final version for production code. This included unit test coverage and following testing/bug fixes.
+    ],
+)
   ]
 
-#box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
-= Skills
-#set list(marker: [--])
-- Strong knowledge in physics and mathematics with a theoretical bent.
-- Knowledge of a variety of programming languages including C++, Julia, Python, Mathematica.
-- Other languages that I am familiar with: elisp, Bash.
-- To some extent knowledgeable user of Linux.
-
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
-= Hobbies and interests
+= Projects
+#Item()[
+  Oct 2022 - present][
+  Contour][ Terminal Emulator #link("https://github.com/contour-terminal/contour")[Link]][
+  #list(
+    [Partially transfered GUI part of application from QtWidget to QML],
+    )
+]
 
-#set list(marker: [•])
-- I contribute to terminal emulator #link("https://github.com/contour-terminal/contour")[Contour] which I use daily, I especially enjoy the Sixel support, thanks to which I have no need to leave the terminal when making plots of any kind.
-- I have a small pet project #link("https://github.com/Yaraslaut/prop")[Prop] 2D FDTD solver of Maxwell's equations, it can utilize both CPU and GPU for calculations, while the math part is written in C++, Python wrapper also exists to give users easy access to the software.
+#Item()[
+  Jan 2023 - present][
+  Prop][ 2D FDTD solver of Maxwell's equations #link("https://github.com/Yaraslaut/prop")[Link]][
+  #list(
+    [Implemented 2D FDTD solver with c++ backend with python wrapper for better user experince via pybind],
+    [Can perform calculations using both CPU and GPU],
+    )
+  ]
+
+#Item()[
+  Dec 2023 - present][
+  Endo][ Shell #link("https://github.com/contour-terminal/endo")[Link]][
+  #list(
+    [Updated project structure to use C++20 modules],
+    [I am currently working on a JIT compiler using LLVM.],
+    )
+  ]
 
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
