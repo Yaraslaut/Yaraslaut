@@ -57,7 +57,7 @@
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 #set align(left)
 = Summary
-I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in nonlinear optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. For example, interaction of graphene with structured light and other materials such as Weyl semimetals of different types. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis. And have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
+I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis. Have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Skills
@@ -85,7 +85,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Tampere University, Tampere, Finland][
   Theoretical Optics and Photonics group
 #list(
-  [Solved a lot of differential equations with Julia both local and on clusters],
+  [Solved a lot of differential equations with Julia both local and on cluster],
   )
   ]
 
@@ -97,7 +97,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   EMC Lab, BSUIR, Minsk, Belarus][
 #list(
     [
-    Implementation and development of algorithms using Mathcad as the initial tool to implement algorithms, followed by C++ to create the final version for production code. This included unit test coverage and following testing/bug fixes.
+    Implementation and development of algorithms using Mathcad as the initial tool, further implementation in C++ for better performance for in final application. This included unit test coverage and following testing/bug fixes.
     ],
 )
   ]
@@ -110,6 +110,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Contour][ Terminal Emulator #link("https://github.com/contour-terminal/contour")[Link]][
   #list(
     [Partially transfered GUI part of application from QtWidget to QML],
+    [General maintanance of github repository with a lot of struggle with github actions and cross-platform packaging],
     )
 ]
 
@@ -117,8 +118,8 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Jan 2023 - present][
   Prop][ 2D FDTD solver of Maxwell's equations #link("https://github.com/Yaraslaut/prop")[Link]][
   #list(
-    [Implemented 2D FDTD solver with c++ backend with python wrapper for better user experince via pybind],
-    [Can perform calculations using both CPU and GPU],
+    [Implemented 2D FDTD solver with c++ backend and python interface via pybind],
+    [Calculations can be performed on both CPU and GPU],
     )
   ]
 
@@ -126,8 +127,8 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Dec 2023 - present][
   Endo][ Shell #link("https://github.com/contour-terminal/endo")[Link]][
   #list(
-    [Updated project structure to use C++20 modules],
-    [I am currently working on a JIT compiler using LLVM.],
+    [Updated project to use C++20 modules],
+    [I am currently working on a JIT backend based LLVM.],
     )
   ]
 
