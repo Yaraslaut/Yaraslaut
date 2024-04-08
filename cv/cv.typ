@@ -57,7 +57,7 @@
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 #set align(left)
 = Summary
-I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis. Have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
+I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis and have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Skills
@@ -97,7 +97,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   EMC Lab, BSUIR, Minsk, Belarus][
 #list(
     [
-    Implementation and development of algorithms using Mathcad as the initial tool, further implementation in C++ for better performance for in final application. This included unit test coverage and following testing/bug fixes.
+    Implementation and development of computation algorithms for the EMC problems in both research (Mathcad) and product (C++).
     ],
 )
   ]
@@ -110,7 +110,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Contour][ Terminal Emulator #link("https://github.com/contour-terminal/contour")[Link]][
   #list(
     [Partially transfered GUI part of application from QtWidget to QML],
-    [General maintanance of github repository with a lot of struggle with github actions and cross-platform packaging],
+    [Update of configuration loading],
     )
 ]
 
@@ -128,7 +128,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Endo][ Shell #link("https://github.com/contour-terminal/endo")[Link]][
   #list(
     [Updated project to use C++20 modules],
-    [I am currently working on a JIT backend based LLVM.],
+    [Working on a JIT backend based on LLVM.],
     )
   ]
 
