@@ -63,8 +63,12 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
 = Skills
 #list(
     [Strong knowledge in physics, mathematics and computer science],
-    [Programming languages: C++, Julia, Python],
-    [Other tools: cmake, bash, latex, typst, wolfram mathematica, mathcad, slurm, github actions],
+    [Programming languages: #list(
+      [C++ 14/17/20 standards (6 years)],
+      [Julia (4 years)], 
+      [Python (7 years)])],
+    [ Daily driving linux for 5 years],
+    [Other tools: cmake, Qt, git, bash, latex, typst, wolfram mathematica, mathcad, slurm, github actions],
 )
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
@@ -85,7 +89,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Tampere University, Tampere, Finland][
   Theoretical Optics and Photonics group
 #list(
-  [Solved a lot of differential equations with Julia both local and on cluster],
+  [Solved a tremendous number of differential equations with Julia both local and on cluster],
   )
   ]
 
@@ -97,7 +101,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   EMC Lab, BSUIR, Minsk, Belarus][
 #list(
     [
-    Implementation and development of computation algorithms for the EMC problems for both research and software solutions.
+    Implementation and development of computation algorithms for the electromagnetic compatibility  problems for both research and software solutions.
     ],
 )
   ]
@@ -129,7 +133,7 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   Jan 2023 - present][
   Prop][ 2D FDTD solver of Maxwell's equations #link("https://github.com/Yaraslaut/prop")[Link]][
   #list(
-    [Implemented 2D FDTD solver with c++ backend and python interface via pybind],
+    [Implemented 2D FDTD solver with C++ backend and python interface via pybind],
     [Calculations can be performed on both CPU and GPU],
     )
   ]
