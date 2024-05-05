@@ -57,14 +57,14 @@
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 #set align(left)
 = Summary
-I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in optics. With a strong background in the field, I combine theory and numerical calculations to study the light-matter interaction of different materials. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis and have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
+I am a physicist specializing in theoretical physics, currently pursuing my Ph.D. in nonlinear optics. I combine theory and numerical calculations to study the light-matter interaction of different materials. Beyond my academic pursuits, I actively contribute to a few projects that I personally utilize on a daily basis and have some small pet projects that allow me to explore new ideas and continuously expand my knowledge.
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
 = Skills
 #list(
-    [Strong knowledge in physics and mathematics],
+    [Strong knowledge in physics, mathematics and computer science],
     [Programming languages: C++, Julia, Python],
-    [Other tools: cmake, bash, latex, typst, mathematica, mathcad, slurm],
+    [Other tools: cmake, bash, latex, typst, wolfram mathematica, mathcad, slurm, github actions],
 )
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
@@ -97,7 +97,18 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
   EMC Lab, BSUIR, Minsk, Belarus][
 #list(
     [
-    Implementation and development of computation algorithms for the EMC problems in both research (Mathcad) and product (C++).
+    Implementation and development of computation algorithms for the EMC problems for both research and software solutions.
+    ],
+)
+  ]
+
+#Item()[
+  Jan 2021 - Jan 2023][
+  Algorithm developer][
+  Izovac, Minsk, Belarus][
+#list(
+    [
+    Development of algorithms for vacuum coatings equipment.
     ],
 )
   ]
@@ -123,14 +134,6 @@ I am a physicist specializing in theoretical physics, currently pursuing my Ph.D
     )
   ]
 
-#Item()[
-  Dec 2023 - present][
-  Endo][ Shell #link("https://github.com/contour-terminal/endo")[Link]][
-  #list(
-    [Updated project to use C++20 modules],
-    [Working on a JIT backend based on LLVM.],
-    )
-  ]
 
 
 #box(width: 50em, height: 0.2em, fill: xcolor.dandelion)
