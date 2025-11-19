@@ -1,8 +1,5 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=Yaraslaut&theme=gruvbox&width=1500&hide_border=true&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
 
-![Visitor count](https://komarev.com/ghpvc/?username=Yaraslaut)
-
-
 
 <!--
 
